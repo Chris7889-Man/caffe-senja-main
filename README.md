@@ -95,3 +95,15 @@ Jika Anda menjalankan perintah `php artisan migrate --seed` pada tahap ke-5 di a
 - Password: `guest123` (atau `adel123`)
 
 *(Catatan: Jika Anda tidak menjalankan perintah seeder, Anda harus mendaftar secara manual lewat web dan mengubah nilai pada kolom `role` menjadi `admin` langsung dari database).*
+
+echo "# caffe-senja-main" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Chris7889-Man/caffe-senja-main.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/Chris7889-Man/caffe-senja-main.git
+git branch -M main
+git push -u origin main
